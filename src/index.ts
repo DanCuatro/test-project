@@ -10,8 +10,7 @@ service.use(express.urlencoded({ extended: true })); // Parse body for PUT
 
 // Add Routes
 service.get('/',async (req:any,res:any) => {
-    res.send('hola mundo y otra cosa :v')
+    res.send('hola mundo y otra cosa :v Dan')
 })
 
-// Export
 export default service;
